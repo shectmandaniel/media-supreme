@@ -1,6 +1,6 @@
 # Media Supreme Project
 
-This project is a media management system built with PHP and MySQL. It provides a landing page and several APIs for managing media content.
+This project is a media management system built with PHP and MySQL. It provides a landing page and several APIs for managing media leads.
 
 ## Getting Started
 
