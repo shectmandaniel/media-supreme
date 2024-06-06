@@ -8,11 +8,11 @@ Follow the instructions in `instructions.txt` to set up the project and database
 
 ## API
 
-The project uses the [IP-API](http://ip-api.com/json/) to get the user's IP address and country. This information is used for ...
+The project uses the [IP-API](http://ip-api.com/json/) to get the user's IP address and country. This information is used for storing the country and IP of the user.
 
 ## Why IP-API?
 
-We chose to use IP-API over other services like [IPify](https://api.ipify.org/) and [IPAPI](https://ipapi.co/) because our API already provides us with the user's IPV4 address and country. IP-API provides this information in a convenient and reliable manner.
+I chose to use IP-API over other services like [IPify](https://api.ipify.org/) and [IPAPI](https://ipapi.co/) because our API already provides us with the user's IPV4 address and country. IP-API provides this information in a convenient and reliable manner.
 
 ## Testing
 
