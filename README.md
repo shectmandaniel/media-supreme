@@ -4,11 +4,11 @@ This project is a media management system built with PHP and MySQL. It provides 
 
 ## Getting Started
 
-Follow the instructions in `instructions.txt` to set up the project and database.
+You will receive `setup.sql`, `instructions.txt`, and a Postman collection via email. Follow the instructions in `instructions.txt` to set up the project and database.
 
 ## API
 
-The project uses the [IP-API](http://ip-api.com/json/) to get the user's IP address and country. This information is used for storing the country and IP of the user.
+The project uses the [IP-API](http://ip-api.com/json/) to get the user's IP address and country. This information is used for ...
 
 ## Why IP-API?
 
