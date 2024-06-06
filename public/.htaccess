@@ -1,0 +1,20 @@
+<Files "*">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "index.html">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+
+<Files "leads.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>

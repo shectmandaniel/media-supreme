@@ -1,0 +1,24 @@
+<Files "*">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "index.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files "index.html">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files "leads-api.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+RewriteEngine On
+RewriteBase /media-supreme/
+RewriteRule ^index\.html$ public/index.html [R=301,L]
+RewriteRule ^leads-api\.php$ src/leads-api.php [L]
